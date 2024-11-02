@@ -14,10 +14,10 @@ def withdraw(balance):
     if amount > balance:
         print("Insufficient amount")
         return 0
-    elif balance < 0:
+    elif amount < 0:
         print("Insufficient amount")
         return 0
-    elif balance > 0:
+    else:
         return amount
 
 def main():
